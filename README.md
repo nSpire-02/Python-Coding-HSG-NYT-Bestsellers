@@ -1,32 +1,30 @@
 # Python-Coding-HSG-NYT-Bestsellers
 
-One Paragraph of project description goes here
-
 Group Project number 2263
 NY Times Bestsellers List
 
-<<About>>
+## About
 This is a group project undertaken by students of the University of St.Gallen under the course Programming-Introduction Level.
 The goal of the project is to process the data file that contains the list of bestsellers books that reached number 1 and construct a list of books.
 The user will then be able to choose different search functions to get the list of books that meet the choosen criteria.
 
-<<Pre-Requisites>>
+## Prerequisites
 The Program works with Python 3.8.2
 To run the program the following libraries need to be imported:
 Datetime, Re, Calendar
 
-<<Instructions>>
+## Instructions
 -> Read the menu option the program will display
 -> Choose the option you want to perform
 -> Input the variables that are asked 
 -> Check the final list of books that meet your criteria
 -> To quit the program input "q" or "Q"
 
-<<Files>>
+## Files
 Code:
 Dataset:
 
-<<Description>>
+## Description
 All of the relevant libraries were downloaded as a first step. A list was created with all of the books in the data file.
 Afterwards the data was cleaned to be viewed and understood in a better way. The 4 functions of the menu option were then defined.
 
@@ -56,7 +54,7 @@ The loop continues to run until the user decides to quit the program by choosing
 
 
 
-<<Sources>>
+## Sources
 Tutorial: http://youtu.be/O4hNpq3Aiig
 Data File: https://drive.google.com/drive/folders/1xzpvleKVbRHnPR1SAKtJXcDCxg7K0Yhw
 
