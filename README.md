@@ -11,7 +11,8 @@ The goal of the project is to process the data file that contains the list of be
 The user will then be able to choose different search functions to get the list of books that meet the choosen criteria.
 
 ## Prerequisites
-The Program works with Python 3.8.2
+This program works with Python 3.8.2
+
 To run the program the following libraries need to be imported:
 Datetime, Re, Calendar
 
