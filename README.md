@@ -3,7 +3,7 @@
 Group Project number 2263
 
 ## About
-This is a group project undertaken by students of the University of St.Gallen under the following courses in autumn semester 2020:
+This is a group project carried out by students of the University of St.Gallen in fall semester 2020 as part of the following courses:
 * 3,793,1.00 - Skills: Programming - Introduction Level
 * 7,789,1.00 - Skills: Programming with Advanced Computer Languages
 
