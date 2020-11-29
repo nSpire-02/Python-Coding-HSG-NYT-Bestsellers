@@ -16,11 +16,11 @@ To run the program the following libraries need to be imported:
 Datetime, Re, Calendar
 
 ## Instructions
--> Read the menu option the program will display
--> Choose the option you want to perform
--> Input the variables that are asked 
--> Check the final list of books that meet your criteria
--> To quit the program input "q" or "Q"
+* Read the menu option the program will display
+* Choose the option you want to perform
+* Input the variables that are asked 
+* Check the final list of books that meet your criteria
+* To quit the program input "q" or "Q"
 
 ## Files
 Code:
