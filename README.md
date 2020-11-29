@@ -14,7 +14,15 @@ The user will then be able to choose different search functions to get the list 
 This program works with Python 3.8.2
 
 To run the program the following libraries need to be imported:
-Datetime, Re, Calendar
+* Datetime
+* Re
+* Calendar
+
+```
+import datetime
+import re
+import calendar
+```
 
 ## Instructions
 * Read the menu option the program will display
@@ -79,7 +87,8 @@ Give examples
 A step by step series of examples that tell you how to get a development env running
 
 Say what the step will be
-
+```
+``` 
 ```
 Give the example
 ```
