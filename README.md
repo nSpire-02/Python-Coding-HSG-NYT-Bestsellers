@@ -25,11 +25,11 @@ import calendar
 ```
 
 ## Instructions
-* Read the menu option the program will display
-* Choose the option you want to perform
-* Input the variables that are asked 
-* Check the final list of books that meet your criteria
-* To quit the program input "q" or "Q"
+1. Read the menu option the program will display
+2. Choose the option you want to perform
+3. Input the variables that are asked 
+4. Check the final list of books that meet your criteria
+5. To quit the program input "q" or "Q"
 
 ## Files
 Code:
