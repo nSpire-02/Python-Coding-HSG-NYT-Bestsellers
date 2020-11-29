@@ -1,12 +1,11 @@
 # NY Times Bestseller List
 
-Group Project number 2263
-
-## About
+## Group Project #2263
 This is a group project carried out by students of the University of St.Gallen in fall semester 2020 as part of the following courses:
 * 3,793,1.00 - Skills: Programming - Introduction Level
 * 7,789,1.00 - Skills: Programming with Advanced Computer Languages
 
+## About
 The goal of the project is to process the data file that contains the list of bestsellers books that reached number 1 and construct a list of books.
 The user will then be able to choose different search functions to get the list of books that meet the choosen criteria.
 
