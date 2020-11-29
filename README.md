@@ -46,9 +46,9 @@ If the user chooses an invalid input the program will display an appropriate mes
 Each book of the subset will be displayed in the following way: title, author and date it reached number 1.
 If the user chooses an invalid input the program will display an appropriate message.
 
-* The third function is the search by year range. The program asks the user for two years, the beggining year and the ending year. The function returns all of the books that reached number 1 between those years.
+* The third function is the search by year range. The program asks the user for two years, the beginning year and the ending year. The function returns all of the books that reached number 1 between those years.
 If the user chooses an invalid input the program will display an appropriate message. 
-For the program to work the code associates the the first day of the year to the beggining year and the last day of the year to the ending year.
+For the program to work the code associates the the first day of the year to the beginning year and the last day of the year to the ending year.
 This way the subset includes all books that reached success between those years.
 The code convertes the dates in the library file to python format to make a comparison between the inputed dates and the library dates possible.
 The subset of books that will be displayed is sorted by date.
