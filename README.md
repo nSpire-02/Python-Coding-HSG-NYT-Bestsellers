@@ -3,7 +3,9 @@
 Group Project number 2263
 
 ## About
-This is a group project undertaken by students of the University of St.Gallen under the course 3,793,1.00 "Skills: Programming - Introduction Level" / 7,789,1.00 "Skills: Programming with Advanced Computer Languages" in autumn semester 2020.
+This is a group project undertaken by students of the University of St.Gallen under the following courses in autumn semester 2020:
+* 3,793,1.00 "Skills: Programming - Introduction Level"
+* 7,789,1.00 "Skills: Programming with Advanced Computer Languages"
 The goal of the project is to process the data file that contains the list of bestsellers books that reached number 1 and construct a list of books.
 The user will then be able to choose different search functions to get the list of books that meet the choosen criteria.
 
@@ -54,9 +56,9 @@ The loop continues to run until the user decides to quit the program by choosing
 
 
 ## Sources
-Tutorial: http://youtu.be/O4hNpq3Aiig
+Tutorial:   http://youtu.be/O4hNpq3Aiig
 
-Data File: https://drive.google.com/drive/folders/1xzpvleKVbRHnPR1SAKtJXcDCxg7K0Yhw
+Data File:  https://drive.google.com/drive/folders/1xzpvleKVbRHnPR1SAKtJXcDCxg7K0Yhw
 
 ## Getting Started
 
