@@ -12,25 +12,27 @@ The user will then be able to choose different search functions to get the list 
 ## Prerequisites
 This program works with Python 3.8.2
 
-To run the program the following libraries need to be installed:
-* Fpdf
+To run the program the following packages need to be installed:
+* FPDF
+* Prettytable
 
 ```
 pip install fpdf
-
+pip install prettytable
 ```
 
-To run the program the following libraries need to be imported:
+To run the program the following modules need to be imported:
 * Datetime
 * Re
 * Calendar
 
 ```
-pip install fpdf
 import datetime
+from datetime import timedelta
 import re
 import calendar
-
+from prettytable import PrettyTable
+from fpdf import FPDF
 ```
 
 ## Instructions
