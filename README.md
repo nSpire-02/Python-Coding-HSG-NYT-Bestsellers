@@ -12,15 +12,25 @@ The user will then be able to choose different search functions to get the list 
 ## Prerequisites
 This program works with Python 3.8.2
 
+To run the program the following libraries need to be installed:
+* Fpdf
+
+```
+pip install fpdf
+
+```
+
 To run the program the following libraries need to be imported:
 * Datetime
 * Re
 * Calendar
 
 ```
+pip install fpdf
 import datetime
 import re
 import calendar
+
 ```
 
 ## Instructions
