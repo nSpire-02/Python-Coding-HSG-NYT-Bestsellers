@@ -51,11 +51,11 @@ All of the relevant libraries were downloaded as a first step. A list was create
 Afterwards the data was cleaned to be viewed and understood in a better way. The 4 functions of the menu option were then defined.
 
 * The first function is the search by the title of the book. The program asks the user a string input and then returns the subset of books that fullfil the criteria (the program is not case sensitive).
-Each book of the subset will be displayed in the following way: title, author and date it reached number 1.
+Each book of the subset will be displayed by alphabetic order in the following way: title, author and date it reached number 1.
 If the user chooses an invalid input the program will display an appropriate message.
 
 * The second function is the search by author of the book. The program asks the user a string input and then returns the subset of books that fullfil the criteria (the program is not case sensitive).
-Each book of the subset will be displayed in the following way: title, author and date it reached number 1.
+Each book of the subset will be displayed by alphabetic order in the following way: title, author and date it reached number 1.
 If the user chooses an invalid input the program will display an appropriate message.
 
 * The third function is the search by year range. The program asks the user for two years, the beginning year and the ending year. The function returns all of the books that reached number 1 between those years.
@@ -63,14 +63,20 @@ If the user chooses an invalid input the program will display an appropriate mes
 For the program to work the code associates the the first day of the year to the beginning year and the last day of the year to the ending year.
 This way the subset includes all books that reached success between those years.
 The code convertes the dates in the library file to python format to make a comparison between the inputed dates and the library dates possible.
-The subset of books that will be displayed is sorted by date.
+The subset of books will be sorted by date and displayed in a tablet format.
 
 * The forth function is the search by a specific month and year. The program asks the user two inputs: a specific month and a specific year.
 If the user chooses an invalid input the program will display an appropriate message.
 The code convertes the dates in the library file to python format to make a comparison between the inputed dates and the library dates possible.
-The subset of books that reached number 1 in that specific month and year will be displayed
+The subset of books that reached number 1 in that specific month and year will be displayed sorted by date.
 
-The loop for the menu function was defined. The user can input "1", "2", "3" and "4" to run the first, second, third and fourth function respectively.
+* The fifth function is the search by publisher of the book. The program asks the user a string input and then returns the subset of books that fullfil the criteria (the program is not case sensitive). 
+Each book of the subset will be displayed by alphabetic order in the following way: title, author and publisher.
+If the user chooses an invalid input the program will display an appropriate message.
+
+* After every search, the program will create a pdf file with a list of the subset of books that met the search criteria. The search function, search query, search item and number of results will be displayed in the first page of the pdf.
+
+The loop for the menu function was defined. The user can input "1", "2", "3", "4" and "5" to run the first, second, third, fourth and fifth function respectively.
 If the user chooses an invalid input the program will display an appropriate message.
 The loop continues to run until the user decides to quit the program by choosing "q" or "Q"
 
