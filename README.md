@@ -137,3 +137,7 @@ Explain what these tests test and why
 ```
 Give an example
 ```
+
+### Licensing
+
+The code in this project is licensed under MIT license.
