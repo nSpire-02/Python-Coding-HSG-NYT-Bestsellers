@@ -10,7 +10,7 @@ The goal of the project is to process the data file that contains the list of be
 The user will then be able to choose different search functions to get the list of books that meet the choosen criteria.
 
 ## Prerequisites
-This program works with Python 3.8.2
+This program was tested with Python 3.8.2 and 3.9.0. 
 
 To run the program the following packages need to be installed:
 * FPDF
