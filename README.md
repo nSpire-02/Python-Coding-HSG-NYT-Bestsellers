@@ -62,7 +62,7 @@ If the user selects an invalid input, the program will display an appropriate er
 The loop continues to run until the user decides to quit the program by entering "q" or "Q".
 
 ## Sample output
-### Search by the title
+### Search for a title
 ```
 What task do you want to perform?
  1: Search for Title
@@ -81,7 +81,7 @@ See Here,Private Hargrove, by Marion Hargrove, 08/18/1942
 6 result(s) found
 ```
 
-### Search by the author
+### Search for an author
 ```
 What task do you want to perform?
  1: Search for Title
@@ -143,7 +143,7 @@ Chelsea Chelsea Bang Bang, by Chelsea Handler, 03/28/2010
 4 result(s) found
 ```
 
-### Search by the publisher
+### Search for a publisher
 ```
 What task do you want to perform?
  1: Search for Title
