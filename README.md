@@ -64,63 +64,10 @@ The loop for the menu function was defined. The user can input "1", "2", "3", "4
 If the user chooses an invalid input the program will display an appropriate message.
 The loop continues to run until the user decides to quit the program by entering "q" or "Q".
 
-
-
 ## Sources
 * [YouTube Tutorial](http://youtu.be/O4hNpq3Aiig)
 
 * [Data file](https://drive.google.com/drive/folders/1xzpvleKVbRHnPR1SAKtJXcDCxg7K0Yhw)
-
-## Getting Started
-
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
-
-### Prerequisites
-
-What things you need to install the software and how to install them
-
-```
-Give examples
-```
-
-### Installing
-
-A step by step series of examples that tell you how to get a development env running
-
-Say what the step will be
-```
-``` 
-```
-Give the example
-```
-
-And repeat
-
-```
-until finished
-```
-
-End with an example of getting some data out of the system or using it for a little demo
-
-## Running the tests
-
-Explain how to run the automated tests for this system
-
-### Break down into end to end tests
-
-Explain what these tests test and why
-
-```
-Give an example
-```
-
-### And coding style tests
-
-Explain what these tests test and why
-
-```
-Give an example
-```
 
 ## Licensing
 
