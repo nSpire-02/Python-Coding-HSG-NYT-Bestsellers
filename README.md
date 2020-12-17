@@ -6,7 +6,7 @@ This is a group project carried out by students of the University of St.Gallen i
 * 7,789,1.00 - Skills: Programming with Advanced Computer Languages
 
 ## About
-The goal of this Python project is to process a data file that contains the bestsellers books that reached number 1 according to the New York Times. A list of books is constructed from which the user can select different search functions to get the list of books that match the selected criteria.
+The goal of this Python project is to process a data file that contains the bestsellers books that reached number 1 according to the New York Times. A list of books is created for which the user can select different search functions to get the subset of books that match the selected criteria.
 
 ## Prerequisites
 This program was tested with Python 3.8.2 and 3.9.0. 
