@@ -57,7 +57,7 @@ The subset of books that reached number 1 in that specific month and year will t
 All books from the subset will be displayed in alphabetical order with the following information: title, author and publisher. For every search, the program will create a PDF file with a list of the search parameters and the subset of books that met the search criteria.
 If the user selects an invalid input, the program will display an appropriate error message.
 
-Finally, the loop for the menu function was defined. The user can input "1", "2", "3", "4" and "5" to run the first, second, third, fourth or fifth function, respectively.
+Finally, the loop for the menu function was defined. The user can input "1", "2", "3", "4" or "5" to run the first, second, third, fourth or fifth function, respectively.
 If the user selects an invalid input, the program will display an appropriate error message.
 The loop continues to run until the user decides to quit the program by entering "q" or "Q".
 
@@ -80,6 +80,7 @@ Private:#1 Suspect, by James Pattersonand Maxine Paetro, 01/22/2012
 See Here,Private Hargrove, by Marion Hargrove, 08/18/1942
 6 result(s) found
 ```
+PDF output: [Search for a title](https://github.com/nSpire-02/Python-Coding-HSG-NYT-Bestsellers/blob/main/output/bestseller_search_query_20201217_022043.pdf)
 
 ### Search for an author
 ```
@@ -95,6 +96,7 @@ Trump:Survivingatthe Top, by Donald Trump, 09/09/1990
 Trump:The Artofthe Deal, by Donald Trump, 01/17/1988
 2 result(s) found
 ```
+PDF output: [Search for an author](https://github.com/nSpire-02/Python-Coding-HSG-NYT-Bestsellers/blob/main/output/bestseller_search_query_20201217_021644.pdf)
 
 ### Search for a year range
 ```
@@ -124,6 +126,7 @@ Ending year: 1965
 +------------+--------------------------------+------------------------+
 11 result(s) found
 ```
+PDF output: [Search for a year range](https://github.com/nSpire-02/Python-Coding-HSG-NYT-Bestsellers/blob/main/output/bestseller_search_query_20201217_023851.pdf)
 
 ### Search for a specific month and year
 ```
@@ -142,6 +145,7 @@ No Apology, by Mitt Romney, 03/21/2010
 Chelsea Chelsea Bang Bang, by Chelsea Handler, 03/28/2010
 4 result(s) found
 ```
+PDF output: [Search for a specific month and year](https://github.com/nSpire-02/Python-Coding-HSG-NYT-Bestsellers/blob/main/output/bestseller_search_query_20201217_024103.pdf)
 
 ### Search for a publisher
 ```
@@ -168,6 +172,7 @@ The Prodigal Daughter, by Jeffrey Archer, Linden Press
 The Sea Around Us, by Rachel Carson, Oxford University Press
 13 result(s) found
 ```
+PDF output: [Search for a publisher](https://github.com/nSpire-02/Python-Coding-HSG-NYT-Bestsellers/blob/main/output/bestseller_search_query_20201217_024309.pdf)
 
 ## Sources
 * [YouTube Tutorial](http://youtu.be/O4hNpq3Aiig)
