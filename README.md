@@ -12,49 +12,33 @@ The user will then be able to choose different search functions to get the list 
 ## Prerequisites
 This program was tested with Python 3.8.2 and 3.9.0. 
 
-To run the program the following packages need to be installed:
-* FPDF
-* Prettytable
+In order to run the program, the packages FPDF and Prettytable first need to be installed using the following commands:
 
 ```
 pip install fpdf
 pip install prettytable
 ```
-
-To run the program the following modules need to be imported:
-* Datetime
-* Re
-* Calendar
-
-```
-import datetime
-from datetime import timedelta
-import re
-import calendar
-from prettytable import PrettyTable
-from fpdf import FPDF
-```
+FPDF is a library for PDF document generation under Python, ported from PHP. 
+Prettytable is a simple Python library for easily displaying tabular data in a visually appealing ASCII table format.
 
 ## Instructions
-1. Read the menu option the program will display
-2. Choose the option you want to perform
-3. Input the variables that are asked 
-4. Check the final list of books that meet your criteria
-5. To quit the program input "q" or "Q"
+1. Open the main.py Python project and run it
+2. Read the menu option the program will display
+3. Choose the option you want to perform
+4. Input the variables that are asked 
+5. Check the final list of books that meet your criteria
+6. To quit the program input "q" or "Q" in the menu
 
-## Files
-Code:
-Dataset:
 
 ## Description
 All of the relevant libraries were downloaded as a first step. A list was created with all of the books in the data file.
-Afterwards the data was cleaned to be viewed and understood in a better way. The 4 functions of the menu option were then defined.
+Afterwards the data was cleaned to be viewed and understood in a better way. The 5 functions of the menu option were then defined.
 
-* The first function is the search by the title of the book. The program asks the user a string input and then returns the subset of books that fullfil the criteria (the program is not case sensitive).
+* The first function is the search by the title of the book. The program asks the user for a string input and then returns the subset of books that fulfill the criteria (the program is not case sensitive).
 Each book of the subset will be displayed by alphabetic order in the following way: title, author and date it reached number 1.
 If the user chooses an invalid input the program will display an appropriate message.
 
-* The second function is the search by author of the book. The program asks the user a string input and then returns the subset of books that fullfil the criteria (the program is not case sensitive).
+* The second function is the search by author of the book. The program asks the user a string input and then returns the subset of books that fulfill the criteria (the program is not case sensitive).
 Each book of the subset will be displayed by alphabetic order in the following way: title, author and date it reached number 1.
 If the user chooses an invalid input the program will display an appropriate message.
 
@@ -70,11 +54,11 @@ If the user chooses an invalid input the program will display an appropriate mes
 The code convertes the dates in the library file to python format to make a comparison between the inputed dates and the library dates possible.
 The subset of books that reached number 1 in that specific month and year will be displayed sorted by date.
 
-* The fifth function is the search by publisher of the book. The program asks the user a string input and then returns the subset of books that fullfil the criteria (the program is not case sensitive). 
+* The fifth function is the search by publisher of the book. The program asks the user a string input and then returns the subset of books that fulfill the criteria (the program is not case sensitive). 
 Each book of the subset will be displayed by alphabetic order in the following way: title, author and publisher.
 If the user chooses an invalid input the program will display an appropriate message.
 
-* After every search, the program will create a pdf file with a list of the subset of books that met the search criteria. The search function, search query, search item and number of results will be displayed in the first page of the pdf.
+* After every search, the program will create a pdf file with a list of the subset of books that met the search criteria. The search parameters (search function, search query, search item and number of results) will be displayed on the first page of the PDF.
 
 The loop for the menu function was defined. The user can input "1", "2", "3", "4" and "5" to run the first, second, third, fourth and fifth function respectively.
 If the user chooses an invalid input the program will display an appropriate message.
@@ -83,9 +67,9 @@ The loop continues to run until the user decides to quit the program by choosing
 
 
 ## Sources
-[Tutorial](http://youtu.be/O4hNpq3Aiig)
+* [YouTube Tutorial](http://youtu.be/O4hNpq3Aiig)
 
-[Data file](https://drive.google.com/drive/folders/1xzpvleKVbRHnPR1SAKtJXcDCxg7K0Yhw)
+* [Data file](https://drive.google.com/drive/folders/1xzpvleKVbRHnPR1SAKtJXcDCxg7K0Yhw)
 
 ## Getting Started
 
@@ -138,6 +122,6 @@ Explain what these tests test and why
 Give an example
 ```
 
-### Licensing
+## Licensing
 
 The code in this project is licensed under MIT license.
