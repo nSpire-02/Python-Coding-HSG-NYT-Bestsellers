@@ -78,7 +78,7 @@ Private Games, by James Pattersonand Mark Sullivan, 03/04/2012
 Private Parts, by Howard Stern, 10/24/1993
 Private:#1 Suspect, by James Pattersonand Maxine Paetro, 01/22/2012
 See Here,Private Hargrove, by Marion Hargrove, 08/18/1942
-6 result(s) found
+6 results found
 ```
 PDF output: [Search for a title](https://github.com/nSpire-02/Python-Coding-HSG-NYT-Bestsellers/blob/main/output/bestseller_search_query_20201217_022043.pdf)
 
@@ -94,7 +94,7 @@ What task do you want to perform?
 Author: trump
 Trump:Survivingatthe Top, by Donald Trump, 09/09/1990
 Trump:The Artofthe Deal, by Donald Trump, 01/17/1988
-2 result(s) found
+2 results found
 ```
 PDF output: [Search for an author](https://github.com/nSpire-02/Python-Coding-HSG-NYT-Bestsellers/blob/main/output/bestseller_search_query_20201217_021644.pdf)
 
@@ -124,7 +124,7 @@ Ending year: 1965
 | 08/01/1965 | The Makingofthe President-1964 | Theodore H.White       |
 | 10/31/1965 | Kennedy                        | Theodore Sorensen      |
 +------------+--------------------------------+------------------------+
-11 result(s) found
+11 results found
 ```
 PDF output: [Search for a year range](https://github.com/nSpire-02/Python-Coding-HSG-NYT-Bestsellers/blob/main/output/bestseller_search_query_20201217_023851.pdf)
 
@@ -139,11 +139,15 @@ What task do you want to perform?
 4
 Please enter a month (1-12): 3
 Please enter a year: 2010
-Fantasy In Death, by J.D.Robb, 03/14/2010
-House Rules, by Jodi Picoult, 03/21/2010
-No Apology, by Mitt Romney, 03/21/2010
-Chelsea Chelsea Bang Bang, by Chelsea Handler, 03/28/2010
-4 result(s) found
++------------+---------------------------+-----------------+
+| Date       | Title                     | Author          |
++------------+---------------------------+-----------------+
+| 03/14/2010 | Fantasy In Death          | J.D.Robb        |
+| 03/21/2010 | House Rules               | Jodi Picoult    |
+| 03/21/2010 | No Apology                | Mitt Romney     |
+| 03/28/2010 | Chelsea Chelsea Bang Bang | Chelsea Handler |
++------------+---------------------------+-----------------+
+4 results found
 ```
 PDF output: [Search for a specific month and year](https://github.com/nSpire-02/Python-Coding-HSG-NYT-Bestsellers/blob/main/output/bestseller_search_query_20201217_024103.pdf)
 
@@ -170,7 +174,7 @@ The Fire Next Time, by James Baldwin, Dial Press
 The New English Bible, by Oxford University Press(Editor), Oxford University Press
 The Prodigal Daughter, by Jeffrey Archer, Linden Press
 The Sea Around Us, by Rachel Carson, Oxford University Press
-13 result(s) found
+13 results found
 ```
 PDF output: [Search for a publisher](https://github.com/nSpire-02/Python-Coding-HSG-NYT-Bestsellers/blob/main/output/bestseller_search_query_20201217_024309.pdf)
 
