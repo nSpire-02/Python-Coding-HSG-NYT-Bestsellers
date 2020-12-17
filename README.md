@@ -43,7 +43,7 @@ If the user selects an invalid input, the program will display an appropriate er
 
 * The third function is the search for books that reached bestseller within a certain year range. The program asks the user for two years, the beginning year and the ending year, and then returns all books that reached number 1 in this timeframe.
 If the user selects an invalid input, the program will display an appropriate error message. 
-For the program to work the code associates the the first day of the year to the beginning year and the last day of the year to the ending year.
+For the program to work the code associates the first day of the year to the beginning year and the last day of the year to the ending year.
 This way the subset includes all books that reached success between those years.
 The code converts the dates in the library file to a common date format to allow for a comparison between the input dates and the library dates.
 The subset of books will be displayed in a table format sorted by date. For every search, the program will create a PDF file with a list of the search parameters and the subset of books that met the search criteria.
