@@ -6,8 +6,7 @@ This is a group project carried out by students of the University of St.Gallen i
 * 7,789,1.00 - Skills: Programming with Advanced Computer Languages
 
 ## About
-The goal of this Python project is to process the data file that contains the list of bestsellers books that reached number 1 and construct a list of books.
-The user will then be able to choose different search functions to get the list of books that meet the choosen criteria.
+The goal of this Python project is to process a data file that contains the bestsellers books that reached number 1 according to the New York Times. A list of books is constructed from which the user can select different search functions to get the list of books that match the selected criteria.
 
 ## Prerequisites
 This program was tested with Python 3.8.2 and 3.9.0. 
@@ -36,7 +35,7 @@ Afterwards the list was cleaned to be processed and displayed in a more comprehe
 
 * The first function is the search by the title of the book. The program asks the user for a string input and then returns the subset of books that fulfill the criteria. The search is conducted for case-insensitive substrings of a string.
 All books from the subset will be displayed in alphabetical order with the following information: title, author and date it reached number 1.
-If the user selects an invalid input the program will display an appropriate message.
+If the user selects an invalid input, the program will display an appropriate message.
 
 * The second function is the search by the author of the book. The program asks the user for a string input and then returns the subset of books that fulfill the criteria. The search is conducted for case-insensitive substrings of a string.
 All books from the subset will be displayed in alphabetical order with the following information: title, author and date it reached number 1.
